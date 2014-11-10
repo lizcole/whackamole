@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Bad Puppy</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="compiled/flipclock.css">
+<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Coming+Soon' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<div id='cursor'>
+	<body class = 'container-fluid'>
+		<img id='background' src="pics/nieghborhood.png">
+		<img class='pics' id='charlie' src="pics/charlie.png">
+		<img class='pics' id='mailmain' src='pics/mailman.png'>
+		<img class='pics' id='squirrel' src="pics/squirrel.png">
+		<img class='pics' id='skunk' src="pics/skunk.png">
+		<img class='pics' id='tennisball' src="pics/tennisball.png">
+		<div class="clock" style="margin:2em;"></div>
+		<button id='start' type='button' class='btn btn-success'>Go!</button>
+		<p id='clickTitle'> Total Clicks: <a id="clicks">0<a/></p>
+
+		<div id="suchModal" class="modal fade" data-backdrop='static'>
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"></span></button>
+		        <h4 class="modal-title"></h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>You chased</p>
+		        <p id='modalscore'></p>
+		        <p> neighborhood habitants!</p>
+		        <p id='finalScore'></p>
+		      </div>
+		      <div class="modal-footer">
+<!-- 		        <button type="button" class="btn btn-default" data-dismiss="modal">Chase Later</button>
+ -->		        <button  type="button" class="btn btn-primary" data-dismiss='modal'>Chase Again!</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="/compiled/flipclock.js"></script>		
+<script type="text/javascript" src='js/whack.js'></script>
+</body>
+</html>

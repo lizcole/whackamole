@@ -1,0 +1,100 @@
+.container-fluid {
+	margin-top: 10px;
+}
+
+#background{
+	position:relative;
+}
+
+#cursor {
+   cursor: url(../pics/quesocursor.png) 10 40, default;
+}
+
+#charlie{
+	position: absolute;
+	left: 70px;
+	top: 510px;
+	display: none;
+}
+
+#mailmain {
+	position: absolute;
+	left: 500px;
+	top: 245px;
+	display: none;
+}
+
+#squirrel {
+	position: absolute;
+	right: 180px;
+	top: 300px;
+	display: none;
+}
+
+#skunk {
+	position: absolute;
+	left: 240px;
+	top: 250px;
+	display: none;
+}
+
+#tennisball {
+	position: absolute;
+	right: 300px;
+	top: 550px;
+	display: none;
+}
+
+.clock {
+	position: absolute;
+	top:20px;
+	left:20px;
+}
+
+#start {
+	position: absolute;
+	font-family: 'Coming Soon', cursive;
+	top: 75px;
+	left: 195px;
+	cursor: url(../pics/quesocursor.png) 10 40, default;
+	z-index: 5;
+}
+
+#clickTitle{
+	font-family: 'Coming Soon', cursive;
+	font-size: 35px;
+	position: absolute;
+	top: 180px;
+	left: 554px;
+}
+
+.modal-footer .btn {
+	cursor: url(../pics/quesocursor.png) 10 40, default;
+}
+
+.modal-footer {
+		border-top: none;
+		padding: 5px;
+}
+
+.modal-content {
+	background-image: url(../pics/modal-background.png);
+}
+
+.modal-header{
+	border-bottom: none;
+}
+
+.modal-body {
+	text-align: center;
+	font-family: 'Coming Soon', cursive;
+	font-size: 20px;
+
+}
+
+#clicks {
+	text-decoration: none;
+	color: black;
+}
+
+
